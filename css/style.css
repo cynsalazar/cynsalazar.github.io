@@ -9,8 +9,7 @@ body {
 
 .wide {
   width:100%;
-  height:100%;
-  height:calc(100% - 1px);
+  height:75%;
   background-image:url('../img/comp.jpg');
   background-size:cover;
 }
@@ -20,7 +19,7 @@ body {
 }
 
 .logo {
-  color:#375e4c;
+  color:#4E5E53;
   font-weight:800;
   font-size:14pt;
   padding:25px;
@@ -35,11 +34,18 @@ body {
   text-align:center;
 }
 
+hr {
+  border-top: 3px solid #4E5E53;
+}
+
 .navbar-inverse {
     background-color: #CFC8D9;
     border-color: #080808;
 }
 
+#name{
+  padding-top: 200px;
+}
 
 #section2 {
 	background-color:#BAA1BD;
@@ -179,4 +185,9 @@ font-family: 'BioRhyme', serif;}
 a {
     color: #2E2A38;
     text-decoration: none;
+}
+
+#name2{
+  padding-top: 2px;
+   text-shadow: 0px 0px 10px #fff;
 }
